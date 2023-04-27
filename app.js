@@ -1,3 +1,6 @@
+const jsdom = require("jsdom");
+const { JSDOM } = jsdom;
+
 const modal = document.querySelector(".modal");
 const overlay = document.querySelector(".overlay");
 const btnclosemodal = document.querySelector(".close-modal");
